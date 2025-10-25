@@ -1,0 +1,18 @@
+# ROS Catkin Workspace
+build/
+devel/
+logs/
+.catkin_tools/
+.ros/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS artifacts
+*.swp
+.DS_Store
+
+# Misc
+*.bag
+*.log
