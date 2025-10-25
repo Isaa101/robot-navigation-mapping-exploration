@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Developed a ROS1 navigation stack for autonomous robots, including LiDAR-based mapping (SLAM component), global path planning with A, Bézier smoothing, PID path following, and frontier-based exploration.
+<img src="results/rviz.png" alt
 
 ## Overview
 This project implements a **ROS1 (C++) navigation stack** for mobile robots, combining:
