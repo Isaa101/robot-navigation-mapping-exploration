@@ -26,19 +26,3 @@ This project implements a **ROS1 (C++) navigation stack** for mobile robots, com
 - Autonomous exploration using frontier detection and clustering.
 
 ---
-
-## Quick Start
-```bash
-# Build
-mkdir -p ~/proj_ws/src && cd ~/proj_ws/src
-git clone https://github.com/<your-user>/<repo-name>.git
-cd .. && catkin_make && source devel/setup.bash
-
-# Run mapping
-rosrun createmap create_gridmap
-
-# Run planner
-rosrun astar_planning astar_planner 
-
-# Run PID follower
-rosrun pid_path_follower pid_path_follower_node
